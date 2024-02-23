@@ -1,0 +1,6 @@
+if SHIELD_invader42
+
+config ZMK_KEYBOARD_NAME
+    default "invader42"
+
+endif
