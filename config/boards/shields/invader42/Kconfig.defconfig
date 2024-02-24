@@ -12,7 +12,7 @@ config BT_CTLR
 config ZMK_USB
 	default y
 
-config ZMK_USB
+config USB
 	default y
 
 endif
