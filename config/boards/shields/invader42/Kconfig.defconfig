@@ -1,9 +1,9 @@
-if SHIELD_invader42
+if SHIELD_INVADER42
 
 config ZMK_KEYBOARD_NAME
     default "invader42"
 
-config BOARD
-	default "invader42"
+config ZMK_USB
+    default y
 
 endif
