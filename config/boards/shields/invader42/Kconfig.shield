@@ -1,2 +1,2 @@
-config SHIELD_INVADER42
+config INVADER42
     def_bool $(shields_list_contains,invader42)
