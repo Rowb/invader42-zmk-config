@@ -23,12 +23,12 @@
         compatible = "zmk,combos";
 
         to_game_layer {
-            bindings = <&mo 4>;
+            bindings = <&tog 4>;
             key-positions = <27 14>;
         };
 
         to_default_layer {
-            bindings = <&mo 0>;
+            bindings = <&tog 0>;
             key-positions = <15 3>;
         };
     };
