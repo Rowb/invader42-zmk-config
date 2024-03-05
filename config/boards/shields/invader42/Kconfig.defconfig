@@ -2,12 +2,5 @@ if INVADER42
 
 config ZMK_KEYBOARD_NAME
     default "invader42"
-
-
-config ZMK_BLE
-	default y
-
-config ZMK_USB
-	default y
     
 endif
