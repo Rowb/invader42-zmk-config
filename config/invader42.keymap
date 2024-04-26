@@ -15,9 +15,15 @@
 #define ADJ 3
 #define GME 4
 
-&lt { quick-tap-ms = <200>; };
+&lt {
+    quick-tap-ms = <200>;
+    hold-trigger-key-positions = <36 38 39 41>;
+};
 
-&mt { quick-tap-ms = <200>; };
+&mt {
+    quick-tap-ms = <200>;
+    hold-trigger-key-positions = <11 35 0>;
+};
 
 / {
     combos {
