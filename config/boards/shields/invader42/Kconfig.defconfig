@@ -2,8 +2,5 @@ if INVADER42
 
 config ZMK_KEYBOARD_NAME
     default "invader42"
-
-    CONFIG_ZMK_BATTERY_REPORTING=Y
-    CONFIG_BT_GATT_ENFORCE_SUBSCRIPTION= N
     
 endif
