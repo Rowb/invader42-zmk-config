@@ -26,11 +26,13 @@
         to_game_layer {
             bindings = <&to 4>;
             key-positions = <27 14>;
+            layers = <0>;
         };
 
         to_default_layer {
             bindings = <&to 0>;
             key-positions = <15 3>;
+            layers = <4>;
         };
     };
 
