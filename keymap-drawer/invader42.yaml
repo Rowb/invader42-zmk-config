@@ -216,8 +216,8 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [27, 14]
-  k: Game Layer
+  k: Game
   l: [default]
 - p: [15, 3]
-  k: {t: default, h: toggle}
+  k: Default
   l: [game]
