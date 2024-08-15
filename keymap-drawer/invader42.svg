@@ -313,9 +313,9 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="138" y="45" width="28" height="26" class="combo"/>
-<a href="#game">
-<text x="152" y="58" class="combo tap layer-activator">game</text>
-</a><text x="152" y="69" class="combo hold">toggle</text>
+<text x="152" y="58" class="combo tap">
+<tspan x="152" dy="-0.6em">Game</tspan><tspan x="152" dy="1.2em">Layer</tspan>
+</text>
 </g>
 </g>
 </g>
