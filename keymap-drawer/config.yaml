@@ -45,6 +45,14 @@ parse_config:
     '&mkp MB4': Back Click
     '&mkp MB5': Forward Click
 
+  sticky_label: $$mdi:gesture-tap-hold$$
+  trans_legend:
+    tap: $$mdi:transfer$$
+    type: trans
+
+  mark_alternate_layer_activators: true
+
+
   zmk_combos:
     combo_tab:    {align: top, o: 0.15}
     combo_del:    {align: top, o: 0.15}
