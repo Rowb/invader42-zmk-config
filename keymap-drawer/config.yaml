@@ -387,9 +387,6 @@ parse_config:
 
 
 draw_config:
-  # combo box dimensions
-  combo_w: 36
-  combo_h: 36
   
   footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
   dark_mode: auto
