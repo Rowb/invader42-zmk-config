@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: LEFT GUI, s: '}'}
+  - {t: ']', h: LEFT GUI}
   - Q
   - W
   - E
@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: RIGHT GUI, s: '{'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '[', h: RIGHT GUI}
+  - Ctrl
   - A
   - S
   - D
@@ -22,9 +22,9 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
-  - $$mdi:apple-keyboard-option$$
+  - ;
+  - {t: '''', h: Ctrl}
+  - Alt
   - Z
   - X
   - C
@@ -32,16 +32,16 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '|'}
-  - {t: '$$mdi:keyboard-tab$$', h: raise}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: RET, h: lower}
-  - {t: '$$mdi:keyboard-esc$$', h: lower}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: raise}
+  - ','
+  - .
+  - /
+  - {t: \, h: Alt}
+  - {t: ↹, h: raise}
+  - {t: ␣, h: Shift}
+  - {t: ⏎, h: lower}
+  - {t: Esc, h: lower}
+  - BACKSPACE
+  - {t: ⌦, h: raise}
   lower:
   - _
   - F1
@@ -55,7 +55,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: +, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: +, h: Ctrl}
   - '!'
   - '@'
   - '#'
@@ -66,123 +66,123 @@ layers:
   - '*'
   - (
   - )
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$', s: _}
-  - {t: '=', h: '$$mdi:apple-keyboard-option$$', s: +}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-tab$$', h: adjust}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', h: Ctrl}
+  - {t: '=', h: Alt}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ↹, h: adjust}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: adjust}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ⌦, h: adjust}
   raise:
   - KP NUM
-  - {t: /, s: '?'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '-', s: _}
-  - $$mdi:volume-high$$
-  - HOME
-  - PSCRN
-  - PG UP
+  - /
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - Vol Up
+  - Home
+  - Print Scrn
+  - Page Up
   - SLCK
-  - $$mdi:apple-keyboard-caps$$
-  - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
+  - Caps Lock
+  - {t: '=', h: Ctrl}
   - '*'
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - '4'
+  - '5'
+  - '6'
   - +
-  - $$mdi:volume-off$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - INS
-  - {t: APP, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE
+  - ←
+  - ↑
+  - →
+  - Insert
+  - {t: APP, h: Ctrl}
+  - {t: ▽, type: trans}
   - '0'
   - '7'
   - '8'
   - '9'
-  - PERIOD
-  - $$mdi:volume-low$$
-  - END
-  - $$mdi:arrow-down-bold$$
-  - PG DN
-  - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
+  - .
+  - Vol Down
+  - End
+  - ↓
+  - Page Down
+  - Pause Break
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RET, h: adjust}
-  - {t: '$$mdi:keyboard-esc$$', h: adjust}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: ▽, type: trans}
+  - {t: ⏎, h: adjust}
+  - {t: Esc, h: adjust}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   adjust:
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:progress-download$$
-  - $$mdi:bluetooth-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - Boot
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - OUT TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT TOG
   - {type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {type: held}
-  - {type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held alternate}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
   game:
   - ESCAPE
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
   - '5'
   - F1
   - F2
   - T
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - VOLUME UP
   - LEFT SHIFT
   - Q
@@ -190,30 +190,30 @@ layers:
   - E
   - R
   - G
-  - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+ $$mdi:keyboard-tab$$
-  - $$mdi:volume-low$$
-  - $$mdi:apple-keyboard-control$$
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+ ↹
+  - Vol Down
+  - Ctrl
   - A
   - S
   - D
   - B
   - F
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
   - M
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-tab-reverse$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Win Prev
   - MUTE
   - C
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-tab$$
+  - ␣
+  - ↹
   - K
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [27, 14]
   k: {t: game, h: toggle}
