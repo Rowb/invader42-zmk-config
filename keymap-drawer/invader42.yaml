@@ -221,3 +221,21 @@ combos:
 - p: [15, 3]
   k: {t: default, h: toggle}
   l: [game]
+- p: [37, 38]
+  k: ⌦
+  l: [default]
+- p: [36, 37]
+  k: BACKSPACE
+  l: [default]
+- p: [37, 38]
+  k: K
+  l: [game]
+- p: [2, 3, 4]
+  k: Ctl+ C
+  l: [default]
+- p: [2, 4]
+  k: Ctl+ V
+  l: [default]
+- p: [2, 3]
+  k: Ctl+ X
+  l: [default]
