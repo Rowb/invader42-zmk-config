@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: invader42}
 layers:
   default:
   - {t: ']', h: LEFT GUI}
@@ -194,7 +195,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ ↹
+  - Alt+↹
   - Vol Down
   - Ctrl
   - A
@@ -231,11 +232,11 @@ combos:
   k: K
   l: [game]
 - p: [2, 3, 4]
-  k: Ctl+ C
+  k: Ctl+C
   l: [default]
 - p: [2, 4]
-  k: Ctl+ V
+  k: Ctl+V
   l: [default]
 - p: [2, 3]
-  k: Ctl+ X
+  k: Ctl+X
   l: [default]
