@@ -78,9 +78,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "ESWAP";
             #binding-cells = <0>;
-            bindings = <&kp T>, <&kp TILDE>;
+            bindings = <&kp T>, <&kp RU_CYRILLIC_IO>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
         };
     };
 
